@@ -282,7 +282,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+<img width="406" height="380" alt="image" src="https://github.com/user-attachments/assets/cbb53029-3a57-465e-bde5-7ddec3c887c3" />
 
 cat > file22
 ```
@@ -295,20 +295,20 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
-
+<img width="436" height="401" alt="image" src="https://github.com/user-attachments/assets/42291110-63a1-42ae-8579-8583b76f5f46" />
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="437" height="262" alt="image" src="https://github.com/user-attachments/assets/a2b48789-4ce7-465c-9b60-88c441ca5711" />
 
 cat < urllist.txt
 ```
 www. yahoo. com
 www. google. com
 www. mrcet.... com
-^d
+^dcat < urllist.txtcat < urllist.txt
  ```
 cat > urllist.txt
 ```
@@ -318,18 +318,16 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
-
+<img width="455" height="427" alt="image" src="https://github.com/user-attachments/assets/cf72585b-223a-4238-a1a3-7e631cd0b16a" />
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
-
+<img width="492" height="107" alt="image" src="https://github.com/user-attachments/assets/962445ee-91d4-4d04-b24a-a86661f6b9cc" />
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+<img width="391" height="277" alt="image" src="https://github.com/user-attachments/assets/23baf387-7068-40ab-9dd7-4b184a9a0207" />
 
 mkdir backupdir
  
@@ -339,20 +337,20 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
-
+<img width="800" height="447" alt="image" src="https://github.com/user-attachments/assets/224c8081-d7ab-4c26-803b-6066683a2ce1" />
 tar -xvf backup.tar
 ## OUTPUT
+<img width="483" height="272" alt="image" src="https://github.com/user-attachments/assets/7bae2b2f-0d6a-49a2-8344-c1fa5a1e7d85" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="567" height="125" alt="image" src="https://github.com/user-attachments/assets/19ec6132-e8f2-4639-97b9-9681f21048ac" />
+
 gunzip backup.tar.gz
 ## OUTPUT
-
- 
+<img width="505" height="50" alt="image" src="https://github.com/user-attachments/assets/b6a14517-12e1-46b9-bf3e-d436db83667d" />
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -361,8 +359,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="522" height="223" alt="image" src="https://github.com/user-attachments/assets/97e7354e-0723-4d9b-a7ce-354533cdfdea" />
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -373,7 +371,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+<img width="496" height="271" alt="image" src="https://github.com/user-attachments/assets/92a7b50e-5c7c-45ff-91f3-34d353fcee09" />
 
 cat < scriptest.sh 
 ```bash
@@ -411,26 +409,25 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="497" height="403" alt="image" src="https://github.com/user-attachments/assets/1b40a462-6fee-457d-ae75-a8649fa9def0" />
 
- 
 ls file1
 ## OUTPUT
+<img width="497" height="77" alt="image" src="https://github.com/user-attachments/assets/9d7279ab-b8fc-471b-97c4-c82c93b7df8b" />
 
 echo $?
 ## OUTPUT 
+<img width="501" height="67" alt="image" src="https://github.com/user-attachments/assets/e1b0a17b-15b5-4faa-a363-d3256195a563" />
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
 abcd
- 
 echo $?
  ## OUTPUT
+ <img width="463" height="72" alt="image" src="https://github.com/user-attachments/assets/4c6e5aff-0fa0-4f9e-9740-76cfc8c45915" />
 
-
- 
 # mis-using string comparisons
 
 cat < strcomp.sh 
@@ -460,14 +457,13 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
-
+<img width="476" height="282" alt="image" src="https://github.com/user-attachments/assets/b63594c6-6e97-4517-8a2a-6ae3cb4620b5" />
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+<img width="475" height="127" alt="image" src="https://github.com/user-attachments/assets/652dab8c-8e77-4127-ab9b-687c42cfb62c" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -481,7 +477,6 @@ echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
 ^d
 ```
-
 cat psswdperm.sh 
 ```bash
 /#!/bin/bash
@@ -494,6 +489,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -537,10 +533,8 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
-
 ./ifnested.sh 
 ## OUTPUT
-
 
 
 # using numeric test comparisons
