@@ -843,6 +843,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="378" height="172" alt="image" src="https://github.com/user-attachments/assets/41390a60-884d-402a-a942-7abb80dd4f03" />
 
 cat fornested1.sh 
 ```bash
@@ -861,6 +862,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="335" height="403" alt="image" src="https://github.com/user-attachments/assets/f5fdbbc4-36c8-45d7-8c07-15811b8bd747" />
 
  
 cat forbreak.sh 
@@ -878,11 +880,10 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="407" height="551" alt="image" src="https://github.com/user-attachments/assets/5494822b-b4aa-40e8-89df-dde3ea15d12f" />
 
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
- 
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -917,8 +918,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
-
+<img width="305" height="188" alt="image" src="https://github.com/user-attachments/assets/a481b41e-295f-441d-8671-4292f4fee3ca" />
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -927,13 +927,10 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
 ## OUTPUT
-
-
+<img width="476" height="273" alt="image" src="https://github.com/user-attachments/assets/0d969881-c382-4a97-8dee-9a1820bf1a48" />
 
 $ ./exread1.sh 
- 
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -950,12 +947,10 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+
+
  ./funcex.sh 
-
- 
  ./funcex.sh 1 2
-
- 
 cat argshift.sh
 ```bash
 #!/bin/bash 
