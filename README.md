@@ -489,7 +489,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+<img width="600" height="295" alt="image" src="https://github.com/user-attachments/assets/d377bfad-088f-4fa8-b4ba-4df577f0ce72" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -535,7 +535,7 @@ fi
 ```
 ./ifnested.sh 
 ## OUTPUT
-
+<img width="515" height="548" alt="image" src="https://github.com/user-attachments/assets/1e535999-6daf-4b84-8094-8a6eb79f361c" />
 
 # using numeric test comparisons
 cat > iftest.sh 
@@ -578,6 +578,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="495" height="541" alt="image" src="https://github.com/user-attachments/assets/9d0d3cd6-7ca6-4c82-8a60-f797ddee90d4" />
 
 # check if a file
 cat > ifnested.sh 
@@ -627,6 +628,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="531" height="125" alt="image" src="https://github.com/user-attachments/assets/b2404079-2d85-43c1-9685-51bc5e72f191" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -655,6 +657,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="323" height="130" alt="image" src="https://github.com/user-attachments/assets/83946f8f-6712-40ad-96c6-5e0db53262a9" />
 
 
 # testing compound comparisons
@@ -671,6 +674,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="452" height="132" alt="image" src="https://github.com/user-attachments/assets/7f1ba4ed-2dc1-4d05-867c-6164c49e073e" />
 
 # using the case command
 cat >casecheck.sh 
@@ -690,7 +694,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## OUTPUT
+ <img width="620" height="446" alt="image" src="https://github.com/user-attachments/assets/77cd2cff-b07b-4ce3-9f29-09effa7f65b1" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -705,8 +711,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
- 
+ ## OUTPUT
+ <img width="351" height="572" alt="image" src="https://github.com/user-attachments/assets/b5637131-ed32-42a7-9e7c-ef4eb7879bdd" />
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -718,9 +725,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
- 
+## OUTPUT:
+ <img width="338" height="445" alt="image" src="https://github.com/user-attachments/assets/9de82d20-5db9-47df-817e-b7b102b4370d" />
+
 cat forin1.sh 
 ```bash
 \#!/bin/bash
@@ -732,8 +739,9 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+ ## OUTPUT:
+ <img width="668" height="455" alt="image" src="https://github.com/user-attachments/assets/426ddd0b-ed47-478b-8f30-d5d61fa47d3a" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -758,6 +766,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+## OUTPUT:
+<img width="543" height="377" alt="image" src="https://github.com/user-attachments/assets/bc22337d-d83d-4e4a-83ee-cc0da52eb23c" />
+
  
 cat forin3.sh 
 ```bash
@@ -780,8 +791,9 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
 ## OUTPUT
+<img width="737" height="522" alt="image" src="https://github.com/user-attachments/assets/034a06c7-c032-4072-b4f6-0682331d0aa1" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -803,7 +815,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+<img width="301" height="222" alt="image" src="https://github.com/user-attachments/assets/48d11ad5-f7bc-4ac3-852b-8f1f4f53a439" />
 
 cat forctype.sh 
 ```bash
@@ -817,6 +829,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="356" height="400" alt="image" src="https://github.com/user-attachments/assets/0d90342c-173e-4d0d-b05a-9e936405fd1f" />
 
 cat forctype1.sh 
 ```bash
