@@ -54,7 +54,6 @@ cat < file2
 ## OUTPUT:
 <img width="405" height="146" alt="image" src="https://github.com/user-attachments/assets/e3857e72-cce1-4e91-afc2-562416bacd71" />
 
-
 # Comparing Files
 cmp file1 file2
 ## OUTPUT:
@@ -90,8 +89,9 @@ cat > file22
 <img width="421" height="180" alt="Screenshot 2026-07-27 085851" src="https://github.com/user-attachments/assets/d6258cbd-8e43-47d4-b129-437a388c124f" />
 
 cut -c1-3 file11
-## OUTPUT
+## OUTPUT:
 <img width="405" height="102" alt="image" src="https://github.com/user-attachments/assets/6bdc356b-0548-40d2-b47d-61fa947c1d6c" />
+
 cut -d "|" -f 1 file22
 ## OUTPUT:
 <img width="405" height="125" alt="image" src="https://github.com/user-attachments/assets/4133fba4-252a-4190-a227-592c0dcea257" />
@@ -804,6 +804,7 @@ done
 ```
 $ chmod 777 forinfile.sh
 $ cat cities
+```
 Hyderabad
 Alampur
 Basara
@@ -811,7 +812,7 @@ Warangal
 Adilabad
 Bhadrachalam
 Khammam
-
+```
 ## OUTPUT:
 <img width="301" height="222" alt="image" src="https://github.com/user-attachments/assets/48d11ad5-f7bc-4ac3-852b-8f1f4f53a439" />
 
