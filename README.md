@@ -67,6 +67,7 @@ comm file1 file2
 diff file1 file2
 ## OUTPUT:
 <img width="442" height="325" alt="image" src="https://github.com/user-attachments/assets/7f395d23-1bee-442c-b8d2-bd68cf3f3013" />
+
 ### Create the following files file11, file22 as follows:
 
 cat > file11
