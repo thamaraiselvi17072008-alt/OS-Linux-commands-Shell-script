@@ -895,8 +895,9 @@ echo "The for loop is completed“
 ``` 
 $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
-## OUTPUT
- 
+## OUTPUT:
+ <img width="350" height="262" alt="image" src="https://github.com/user-attachments/assets/7439bcd7-d8b8-4c74-aa88-b046e5d99eb8" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -939,7 +940,7 @@ fi
 ```
  ./funcex.sh 
  ./funcex.sh 1 2
-## OUTPUT
+## OUTPUT:
 <img width="656" height="501" alt="image" src="https://github.com/user-attachments/assets/b0bd7087-3d04-4941-a984-80779965eb6f" />
 
 cat argshift.sh
@@ -1016,7 +1017,7 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
-## OUTPUT :
+## OUTPUT:
  <img width="338" height="181" alt="image" src="https://github.com/user-attachments/assets/392c8eec-8edd-4e2d-b267-23da59462bff" />
 
 cat > palindrome.sh
