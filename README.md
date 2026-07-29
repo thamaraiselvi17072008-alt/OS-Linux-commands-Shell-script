@@ -927,10 +927,10 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
+$ ./exread1.sh
 ## OUTPUT
 <img width="476" height="273" alt="image" src="https://github.com/user-attachments/assets/0d969881-c382-4a97-8dee-9a1820bf1a48" />
-
-$ ./exread1.sh 
+ 
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -946,11 +946,11 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
-
-
  ./funcex.sh 
  ./funcex.sh 1 2
+## OUTPUT
+<img width="656" height="501" alt="image" src="https://github.com/user-attachments/assets/b0bd7087-3d04-4941-a984-80779965eb6f" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -960,9 +960,9 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT:
+<img width="325" height="402" alt="image" src="https://github.com/user-attachments/assets/9a8e181c-a5c3-46b5-af62-e102f10e14d7" />
  
  cat argshift1.sh
 ```bash
@@ -978,9 +978,10 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+## OUTPUT:
+<img width="381" height="477" alt="image" src="https://github.com/user-attachments/assets/0c38c09a-911e-4ed6-97d0-5c733cb04f09" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -991,10 +992,10 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
  ./argshift.sh 1 2 3
- 
- 
+ ## OUTPUT:
+ <img width="311" height="405" alt="image" src="https://github.com/user-attachments/assets/dfd47426-5ad1-42b8-9727-99c03248d841" />
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1023,8 +1024,9 @@ bcdfghj
 ubcdfghj
 ```
 awk -f nc.awk data.dat
-## OUTPUT 
- 
+## OUTPUT :
+ <img width="338" height="181" alt="image" src="https://github.com/user-attachments/assets/392c8eec-8edd-4e2d-b267-23da59462bff" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1050,8 +1052,8 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
-## OUTPUT 
-
+## OUTPUT: 
+<img width="290" height="177" alt="image" src="https://github.com/user-attachments/assets/49afacea-1971-4392-aaaa-2e37d2971b3d" />
 
 # RESULT:
 The Commands are executed successfully.
