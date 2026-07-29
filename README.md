@@ -434,6 +434,7 @@ ls file1
 echo $?
 ## OUTPUT: 
 <img width="501" height="67" alt="image" src="https://github.com/user-attachments/assets/e1b0a17b-15b5-4faa-a363-d3256195a563" />
+
 ./one
 bash: ./one: Permission denied
 echo $?
@@ -475,7 +476,7 @@ fi
 
 chmod 755 strcomp.sh
 ./strcomp.sh 
-## OUTPUT
+## OUTPUT:
 <img width="475" height="127" alt="image" src="https://github.com/user-attachments/assets/652dab8c-8e77-4127-ab9b-687c42cfb62c" />
 
 # check file ownership
